@@ -16,8 +16,6 @@ news_content = response.json()
 
 sentiment = SentimentIntensityAnalyzer()
 
-# Initaializing a counter for the for loop.
-
 # Creating a CSV file to store the Data
 with open('news_data.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
